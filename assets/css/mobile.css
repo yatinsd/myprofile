@@ -1,0 +1,39 @@
+@media (min-width:992px){
+    body{
+        padding-top:0;
+        padding-left:14rem;
+    }
+    #sideNav{
+        text-align:center;
+        position:fixed;
+        flex-direction:column;
+        width:15rem;
+        height:100vh;
+        padding: 0;
+    }
+    
+    #sideNav .navbar-brand .img-profile{
+        border:8px solid rgba(255,255,255,.2);
+        margin: 61px 0 0 5px;
+    }
+    
+    #sideNav .navbar-collapse{
+        display:flex;
+        width:100%;
+        margin-bottom:60px;
+    }
+    
+    #sideNav .navbar-collapse .navbar-nav{
+        flex-direction: column;
+        width:100%;
+    }
+    
+    #sideNav .navbar-collapse .navbar-nav .nav-item{
+        display:block;
+    }
+    
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{
+        display:block;
+    }
+
+}

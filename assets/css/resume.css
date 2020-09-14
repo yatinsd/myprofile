@@ -1,0 +1,122 @@
+@import url("mobile.css");
+
+body{
+    /* font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; */
+    padding-top:54px;
+    color:#868e96;
+}
+
+#sideNav{
+    background-color: rgba(255, 94, 0, 0.623);
+}
+
+#sideNav .navbar-nav .nav-item .nav-link{
+    font-weight:800;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+#about{
+    height: 100vh;
+    text-transform: uppercase;
+}
+
+#about h1{
+    text-transform: uppercase;
+    font-size: 5rem;
+    color: black;
+}
+
+#experience h1{
+    font-size: 50px;
+    color: black;
+}
+
+#experience h3{
+    color: black;
+}
+
+#education{
+    height: 100vh;
+}
+
+#education h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 65px;
+}
+
+#education h3{
+    color: black;
+}
+
+#skills{
+    height: 100vh;
+}
+
+#skills h1{
+    font-size: 50px;
+    color: black;
+}
+
+.languages i:hover{
+    color: rgba(255, 94, 0, 0.623);
+}
+
+.languages{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.languages .html{
+    margin-right: 10px;
+}
+
+.languages .css{
+    margin-right: 10px;
+}
+
+#interests{
+    height: 100vh;
+}
+
+#interests h1{
+    font-size: 50px;
+    color: black;
+    margin-top: 80px; 
+}
+
+.name{
+    color: rgba(255, 94, 0, 0.623);
+}
+
+.social-icons{
+    font-size: 50px;
+    margin-top: 50px; 
+}
+
+.social-icons a{
+    display:inline-block;
+    height:56px;
+    width: 56px;
+    background-color:#495057;
+    color:white;
+    border-radius:100%;
+    text-align:center;
+    font-size:25px;
+    line-height:56px;
+}
+
+.social-icons a:hover{
+    background-color:rgba(255, 94, 0, 0.623);
+}
+
+.resume-date{
+    padding: 0;
+    font-size: 17px;
+    color: rgba(255, 94, 0, 0.623);
+}
+
+.senior{
+    font-size: 15px;
+}
